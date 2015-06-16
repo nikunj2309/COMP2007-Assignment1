@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--website Icon -->
-     <link rel="shortcut icon" href="Images/icon.ico" />
+    <link rel="shortcut icon" href="Images/icon.ico" />
     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
     </asp:ContentPlaceHolder>
     <title>Game Calculator</title>
@@ -17,14 +17,15 @@
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
     <link href="Content/styles.css" rel="stylesheet" />
+    <link href="Content/font-awesome.css" rel="stylesheet" />
 
     <!-- jQuery Section -->
     <script src="Scripts/jquery-1.9.1.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
 
-    
+
 </head>
-body>
+<body>
     <div class="container-fluid">
         <form id="form1" runat="server">
             <div id="PageWrapper">
@@ -71,12 +72,23 @@ body>
 
                         <h4 class="navbar-text">&copy; <%: DateTime.Now.Year %> - N!ks Software</h4>
 
+                        <div class="social-buttons pull-right btn-lg">
+
+                            
+                                <a href=" https://twitter.com/nikunj_vala" target="_blank" class="btn btn-social-icon btn-twitter btn-lg"><i class=" fa fa-twitter"></i></a>
+                                <a href=" https://www.facebook.com/nikunj.vala" target="_blank" class="btn btn-social-icon btn-facebook btn-lg"><i class="fa fa-facebook"></i></a>
+                                <a href=" https://ca.linkedin.com/in/nikunjvala" target="_blank" class="btn btn-social-icon btn-linkedin btn-lg"><i class=" fa fa-linkedin"></i></a>
+                           
+
+                        </div>
                     </nav>
                 </footer>
             </div>
         </form>
     </div>
     <!-- JavaScript Library Section -->
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
     <script src="/Scripts/jquery-1.9.1.min.js"></script>
     <script src="/Scripts/bootstrap.min.js"></script>
 </body>

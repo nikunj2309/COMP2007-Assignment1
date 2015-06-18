@@ -26,7 +26,7 @@
                         <asp:label id="lblPScored1" associatedcontrolid="txtPScored1" runat="server">Points Scored:</asp:label>
                         <asp:textbox id="txtPScored1" textmode="Number" cssclass="form-control" runat="server"></asp:textbox>
                         <asp:requiredfieldvalidator controltovalidate="txtPScored1" cssclass="alert-danger text-danger" display="Dynamic" errormessage="Please enter scored points value" runat="server"></asp:requiredfieldvalidator>
-                        <asp:rangevalidator id="rvPScored1" controltovalidate="txtPScored1" cssclass="alert-warning text-warning" display="Dynamic" errormessage="Points Scored must be between 0 to 15." maximumvalue="15" minimumvalue="0" type="Integer" runat="server"></asp:rangevalidator>
+                        <asp:rangevalidator id="rvPScored1" controltovalidate="txtPScored1" cssclass="alert-warning text-warning" display="Dynamic" errormessage="Points Scored must be between 0 to 20." maximumvalue="20" minimumvalue="0" type="Integer" runat="server"></asp:rangevalidator>
                     </div>
                     <!--create compare validator for point scored vs point allowed-->
                     <div class="alert-warning text-warning">
@@ -37,14 +37,14 @@
                         <asp:label id="lblPAllowed" associatedcontrolid="txtPAllowed1" runat="server">Points Allowed:</asp:label>
                         <asp:textbox id="txtPAllowed1" textmode="Number" cssclass="form-control" runat="server"></asp:textbox>
                         <asp:requiredfieldvalidator controltovalidate="txtPAllowed1" cssclass="alert-danger text-danger" display="Dynamic" errormessage="Please enter allowed points value" runat="server"></asp:requiredfieldvalidator>
-                        <asp:rangevalidator id="rvPAllowed1" controltovalidate="txtPAllowed1" cssclass="alert-warning text-warning" display="Dynamic" errormessage="Points Allowed must be between 0 to 15." maximumvalue="15" minimumvalue="0" type="Integer" runat="server"></asp:rangevalidator>
+                        <asp:rangevalidator id="rvPAllowed1" controltovalidate="txtPAllowed1" cssclass="alert-warning text-warning" display="Dynamic" errormessage="Points Allowed must be between 0 to 20." maximumvalue="20" minimumvalue="0" type="Integer" runat="server"></asp:rangevalidator>
                     </div>
                     <!--create lable and text input for Spectator, Set require field and range validator-->
                     <div>
                         <asp:label id="lblSpec1" associatedcontrolid="txtSpec1" runat="server">Number of Spectator:</asp:label>
                         <asp:textbox id="txtSpec1" textmode="Number" cssclass="form-control" runat="server"></asp:textbox>
                         <asp:requiredfieldvalidator controltovalidate="txtSpec1" cssclass="alert-danger text-danger" display="Dynamic" errormessage="Please enter numbers of Spectators" runat="server"></asp:requiredfieldvalidator>
-                        <asp:rangevalidator id="rvSpec1" controltovalidate="txtSpec1" cssclass="alert-warning text-warning" display="Dynamic" errormessage="Enter No. of Spectators between 0 to 15." maximumvalue="15" minimumvalue="0" type="Integer" runat="server"></asp:rangevalidator>
+                        <asp:rangevalidator id="rvSpec1" controltovalidate="txtSpec1" cssclass="alert-warning text-warning" display="Dynamic" errormessage="Enter No. of Spectators between 0 to 20." maximumvalue="20" minimumvalue="0" type="Integer" runat="server"></asp:rangevalidator>
 
                     </div>
                 </div>
@@ -77,14 +77,14 @@
                         <asp:label id="lblPAllowed2" associatedcontrolid="txtPAllowed2" runat="server">Points Allowed:</asp:label>
                         <asp:textbox id="txtPAllowed2" textmode="Number" cssclass="form-control" runat="server"></asp:textbox>
                         <asp:requiredfieldvalidator controltovalidate="txtPAllowed2" cssclass="alert-danger text-danger" display="Dynamic" errormessage="Please enter allowed points value" runat="server"></asp:requiredfieldvalidator>
-                        <asp:rangevalidator id="rvPAllowed2" controltovalidate="txtPAllowed2" cssclass="alert-warning text-warning" display="Dynamic" errormessage="Points Allowed must be between 0 to 15." maximumvalue="15" minimumvalue="0" type="Integer" runat="server"></asp:rangevalidator>
+                        <asp:rangevalidator id="rvPAllowed2" controltovalidate="txtPAllowed2" cssclass="alert-warning text-warning" display="Dynamic" errormessage="Points Allowed must be between 0 to 20." maximumvalue="20" minimumvalue="0" type="Integer" runat="server"></asp:rangevalidator>
                     </div>
                     <!--create lable and text input for Spectator, Set require field and range validator-->
                     <div>
                         <asp:label id="lblSpec2" associatedcontrolid="txtSpec2" runat="server">Number of Spectator:</asp:label>
                         <asp:textbox id="txtSpec2" textmode="Number" cssclass="form-control" runat="server"></asp:textbox>
                         <asp:requiredfieldvalidator controltovalidate="txtSpec2" cssclass="alert-danger text-danger" display="Dynamic" errormessage="Please enter numbers of Spectators." runat="server"></asp:requiredfieldvalidator>
-                        <asp:rangevalidator id="rvSpec2" controltovalidate="txtSpec2" cssclass="alert-warning text-warning" display="Dynamic" errormessage="Enter No. of Spectators between 0 to 15." maximumvalue="15" minimumvalue="0" type="Integer" runat="server"></asp:rangevalidator>
+                        <asp:rangevalidator id="rvSpec2" controltovalidate="txtSpec2" cssclass="alert-warning text-warning" display="Dynamic" errormessage="Enter No. of Spectators between 0 to 20." maximumvalue="20" minimumvalue="0" type="Integer" runat="server"></asp:rangevalidator>
                     </div>
                 </div>
                 <!--Game 3 section-->
@@ -105,7 +105,7 @@
                         <asp:label id="lblPScored3" associatedcontrolid="txtPScored3" runat="server">Points Scored:</asp:label>
                         <asp:textbox id="txtPScored3" textmode="Number" cssclass="form-control" runat="server"></asp:textbox>
                         <asp:requiredfieldvalidator controltovalidate="txtPScored3" cssclass="alert-danger text-danger" display="Dynamic" errormessage="Please enter scored points value" runat="server"></asp:requiredfieldvalidator>
-                        <asp:rangevalidator id="rvPScored3" controltovalidate="txtPScored3" cssclass="alert-danger text-danger" display="Dynamic" errormessage="Points Scored must be between 0 to 15." maximumvalue="15" minimumvalue="0" type="Integer" runat="server"></asp:rangevalidator>
+                        <asp:rangevalidator id="rvPScored3" controltovalidate="txtPScored3" cssclass="alert-danger text-danger" display="Dynamic" errormessage="Points Scored must be between 0 to 20." maximumvalue="20" minimumvalue="0" type="Integer" runat="server"></asp:rangevalidator>
                     </div>
                     <!--create compare validator for point scored vs point allowed-->
                     <div>
@@ -116,14 +116,14 @@
                         <asp:label id="lblPAllowed3" associatedcontrolid="txtPAllowed3" runat="server">Points Allowed:</asp:label>
                         <asp:textbox id="txtPAllowed3" textmode="Number" cssclass="form-control" runat="server"></asp:textbox>
                         <asp:requiredfieldvalidator controltovalidate="txtPAllowed3" cssclass="alert-danger text-danger" display="Dynamic" errormessage="Please enter allowed points value" runat="server"></asp:requiredfieldvalidator>
-                        <asp:rangevalidator id="rvPAllowed3" controltovalidate="txtPAllowed3" cssclass="alert-danger text-danger" display="Dynamic" errormessage="Points Allowed must be between 0 to 15." maximumvalue="15" minimumvalue="0" type="Integer" runat="server"></asp:rangevalidator>
+                        <asp:rangevalidator id="rvPAllowed3" controltovalidate="txtPAllowed3" cssclass="alert-danger text-danger" display="Dynamic" errormessage="Points Allowed must be between 0 to 20." maximumvalue="20" minimumvalue="0" type="Integer" runat="server"></asp:rangevalidator>
                     </div>
                     <!--create lable and text input for Spectator, Set require field and range validator-->
                     <div>
                         <asp:label id="lblSpec3" associatedcontrolid="txtSpec3" runat="server">Number of Spectator:</asp:label>
                         <asp:textbox id="txtSpec3" textmode="Number" cssclass="form-control" runat="server"></asp:textbox>
                         <asp:requiredfieldvalidator controltovalidate="txtSpec3" cssclass="alert-danger text-danger" display="Dynamic" errormessage="Please enter numbers of Spectators." runat="server"></asp:requiredfieldvalidator>
-                        <asp:rangevalidator id="rvSpec3" controltovalidate="txtSpec3" cssclass="alert-danger text-danger" display="Dynamic" errormessage="Enter No. of Spectators between 0 to 15." maximumvalue="15" minimumvalue="0" type="Integer" runat="server"></asp:rangevalidator>
+                        <asp:rangevalidator id="rvSpec3" controltovalidate="txtSpec3" cssclass="alert-danger text-danger" display="Dynamic" errormessage="Enter No. of Spectators between 0 to 20." maximumvalue="20" minimumvalue="0" type="Integer" runat="server"></asp:rangevalidator>
                     </div>
                 </div>
                 <!--Game 4 section-->
@@ -144,7 +144,7 @@
                         <asp:label id="lblPScored4" associatedcontrolid="txtPScored4" runat="server">Points Scored:</asp:label>
                         <asp:textbox id="txtPScored4" textmode="Number" cssclass="form-control" runat="server"></asp:textbox>
                         <asp:requiredfieldvalidator controltovalidate="txtPScored4" cssclass="alert-danger text-danger" display="Dynamic" errormessage="Please enter scored points value" runat="server"></asp:requiredfieldvalidator>
-                        <asp:rangevalidator id="rvPScored4" controltovalidate="txtPScored4" cssclass="alert-danger text-danger" display="Dynamic" errormessage="Points Scored must be between 0 to 15." maximumvalue="15" minimumvalue="0" type="Integer" runat="server"></asp:rangevalidator>
+                        <asp:rangevalidator id="rvPScored4" controltovalidate="txtPScored4" cssclass="alert-danger text-danger" display="Dynamic" errormessage="Points Scored must be between 0 to 20." maximumvalue="20" minimumvalue="0" type="Integer" runat="server"></asp:rangevalidator>
                     </div>
                     <!--create compare validator for point scored vs point allowed-->
                     <div>
@@ -155,14 +155,14 @@
                         <asp:label id="lblPAllowed4" associatedcontrolid="txtPAllowed4" runat="server">Points Allowed:</asp:label>
                         <asp:textbox id="txtPAllowed4" textmode="Number" cssclass="form-control" runat="server"></asp:textbox>
                         <asp:requiredfieldvalidator controltovalidate="txtPAllowed4" cssclass="alert-danger text-danger" display="Dynamic" errormessage="Please enter allowed points value" runat="server"></asp:requiredfieldvalidator>
-                        <asp:rangevalidator id="rvPAllowed4" controltovalidate="txtPAllowed4" cssclass="alert-danger text-danger" display="Dynamic" errormessage="Points Allowed must be between 0 to 15." maximumvalue="15" minimumvalue="0" type="Integer" runat="server"></asp:rangevalidator>
+                        <asp:rangevalidator id="rvPAllowed4" controltovalidate="txtPAllowed4" cssclass="alert-danger text-danger" display="Dynamic" errormessage="Points Allowed must be between 0 to 20." maximumvalue="20" minimumvalue="0" type="Integer" runat="server"></asp:rangevalidator>
                     </div>
                     <!--create lable and text input for Spectator, Set require field and range validator-->
                     <div>
                         <asp:label id="lblSpec4" associatedcontrolid="txtSpec4" runat="server">Number of Spectator:</asp:label>
                         <asp:textbox id="txtSpec4" textmode="Number" cssclass="form-control" runat="server"></asp:textbox>
                         <asp:requiredfieldvalidator controltovalidate="txtSpec4" cssclass="alert-danger text-danger" display="Dynamic" errormessage="Please enter numbers of Spectators." runat="server"></asp:requiredfieldvalidator>
-                        <asp:rangevalidator id="rvSpec4" controltovalidate="txtSpec4" cssclass="alert-danger text-danger" display="Dynamic" errormessage="Enter No. of Spectators between 0 to 15." maximumvalue="15" minimumvalue="0" type="Integer" runat="server"></asp:rangevalidator>
+                        <asp:rangevalidator id="rvSpec4" controltovalidate="txtSpec4" cssclass="alert-danger text-danger" display="Dynamic" errormessage="Enter No. of Spectators between 0 to 20." maximumvalue="20" minimumvalue="0" type="Integer" runat="server"></asp:rangevalidator>
                     </div>
                 </div>
             </div>

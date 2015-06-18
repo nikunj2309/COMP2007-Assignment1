@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="GameCalculator" Language="C#" MasterPageFile="~/Game.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="assignment1._default" %>
 
 <asp:Content ID="Game" ContentPlaceHolderID="cpMainContent" runat="server">
-    <div class="jumbotron">
+     <div class="site-wrapper">
         <div class="container">
             <div class="alert alert-info">
                 All Fields are required.
